@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories_array">
+        <item>Toutes catégories</item>
+        <item>Alimentation</item>
+        <item>Vêtements</item>
+        <item>Automobile</item>
+    </string-array>
+    <string-array name="categories_values">
+        <item>all</item>
+        <item>Alimentation</item>
+        <item>Vêtements, Mode, EPI</item>
+        <item>Automobiles et moyens de déplacement</item>
+    </string-array>
+
+    <string-array name="compensation_array">
+        <item>Tout type</item>
+        <item>Remboursement</item>
+        <item>Echange</item>
+    </string-array>
+    <string-array name="compensation_values">
+        <item>all</item>
+        <item>Remboursement</item>
+        <item>Echange</item>
+    </string-array>
+
+    <string-array name="risque_array">
+        <item>Tout type</item>
+        <item>Blessures externes</item>
+        <item>Dommages internes</item>
+    </string-array>
+    <string-array name="risque_values">
+        <item>all</item>
+        <item>Blessures externes</item>
+        <item>Dommages internes Intoxication</item>
+    </string-array>
+
+    <string-array name="distributeur_array">
+        <item>Tout distributeur</item>
+        <item>Décathlon</item>
+        <item>Aldi</item>
+        <item>Leclerc</item>
+    </string-array>
+    <string-array name="distributeur_values">
+        <item>all</item>
+        <item>Décathlon</item>
+        <item>Aldi</item>
+        <item>Leclerc</item>
+    </string-array>
+
+</resources>

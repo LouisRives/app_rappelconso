@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        app:key="max_results"
+        app:title="Nombre maximum de résultats"
+        app:summary="Entrez le nombre maximum de résultats à afficher"
+        app:dialogTitle="Nombre maximum de résultats"
+        app:useSimpleSummaryProvider="true"
+        app:defaultValue="6" />
+
+    <ListPreference
+        app:key="categorie"
+        app:title="Catégorie"
+        app:summary="Choisissez une catégorie de produits"
+        app:dialogTitle="Catégorie"
+        app:entries="@array/categories_array"
+        app:entryValues="@array/categories_values"
+        app:defaultValue="all"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:key="compensation"
+        app:title="Modalité de compensation"
+        app:summary="Choisissez une modalité de compensation"
+        app:dialogTitle="Modalité de compensation"
+        app:entries="@array/compensation_array"
+        app:entryValues="@array/compensation_values"
+        app:defaultValue="all"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:key="risque"
+        app:title="Risque encourus"
+        app:summary="Choisissez un risque encourus"
+        app:dialogTitle="Risque encourus"
+        app:entries="@array/risque_array"
+        app:entryValues="@array/risque_values"
+        app:defaultValue="all"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:key="distributeur"
+        app:title="Distributeur"
+        app:summary="Choisissez un distributeur"
+        app:dialogTitle="Distributeur"
+        app:entries="@array/distributeur_array"
+        app:entryValues="@array/distributeur_values"
+        app:defaultValue="all"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
